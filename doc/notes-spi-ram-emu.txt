@@ -1,0 +1,8 @@
+11/11/24
+git clone https://github.com/develone/spi-ram-emu.git -b test-dev
+cd spi-ram-emu
+mkdir build
+cd build/
+cmake .. -DPICO_BOARD=pico -DPICO_PLATFORM=rp2040
+make
+The pico-uf2-file is found 
