@@ -1,0 +1,23 @@
+07/25/25
+spi-ram-emu
+2 MOSI <---
+3 SCK
+4 CS
+5 MISO --->
+https://github.com/develone/pico-examples/tree/test-dev/spi/spi_master_slave
+
+p# - Set the first pin to receive capture data                                
+n# - Set how many pins to receive capture data                                
+f# - Set the freqency to capture data at in Hz                                
+t(1)(0) - Set the trigger to high or low                                      
+    Trigger happens off first pin                                             
+s# - Set how many samples to capture                                          
+g - Go!
+p17                                                                           
+Start pin is 17                                                               
+n8                                                                            
+Total pins is 8                                                               
+f1000000                                                                      
+Frequency is 1000000 div is 125.000000                                        
+s250000                                                                       
+Sample number is 250000
